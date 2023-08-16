@@ -1,5 +1,6 @@
 import './App.css';
-import LayoutEffectHook from './components/LayoutEffectHook';
+import ContextHook from './components/ContextHook';
+// import LayoutEffectHook from './components/LayoutEffectHook';
 // import EffectHook from './components/EffectHook';
 // import RefHook from './components/RefHook';
 // import ReducerHook from './components/ReducerHook';
@@ -12,7 +13,8 @@ function App() {
       {/* <ReducerHook /> */}
       {/* <EffectHook></EffectHook> */}
       {/* <RefHook /> */}
-      <LayoutEffectHook />
+      {/* <LayoutEffectHook /> */}
+      <ContextHook />
 
     </div>
   );
