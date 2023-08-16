@@ -2,8 +2,6 @@ import React, { useReducer } from 'react'
 
 export default function ReducerHook() {
 
-    let count = 0;
-
     const redcucer = (state, action) => {
         switch (action.type) {
             case "INCREMENT":
