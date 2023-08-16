@@ -1,5 +1,6 @@
 import './App.css';
 import ContextHook from './components/ContextHook';
+import MemoHook from './components/MemoHook';
 // import LayoutEffectHook from './components/LayoutEffectHook';
 // import EffectHook from './components/EffectHook';
 // import RefHook from './components/RefHook';
@@ -14,7 +15,8 @@ function App() {
       {/* <EffectHook></EffectHook> */}
       {/* <RefHook /> */}
       {/* <LayoutEffectHook /> */}
-      <ContextHook />
+      {/* <ContextHook /> */}
+      <MemoHook />
 
     </div>
   );
