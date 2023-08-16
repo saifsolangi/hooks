@@ -1,5 +1,6 @@
 import './App.css';
-import EffectHook from './components/EffectHook';
+// import EffectHook from './components/EffectHook';
+import RefHook from './components/RefHook';
 // import ReducerHook from './components/ReducerHook';
 // import StateHook from './components/StateHook';
 
@@ -8,7 +9,9 @@ function App() {
     <div className="App">
       {/* <StateHook /> */}
       {/* <ReducerHook /> */}
-      <EffectHook></EffectHook>
+      {/* <EffectHook></EffectHook> */}
+      <RefHook />
+
     </div>
   );
 }
