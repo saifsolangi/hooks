@@ -1,10 +1,12 @@
 import './App.css';
-import StateHook from './components/StateHook';
+import ReducerHook from './components/ReducerHook';
+// import StateHook from './components/StateHook';
 
 function App() {
   return (
     <div className="App">
-      <StateHook />
+      {/* <StateHook /> */}
+      <ReducerHook />
     </div>
   );
 }
