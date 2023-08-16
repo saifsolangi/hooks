@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
-export default function Login(props) {
+import { AppContext } from './ContextHook'
+
+export default function Login() {
+    const { setUserName } = useContext(AppContext)
+
     return (
         <div>
             <input onChange={(event) => {
-                props.setUserName(event.target.value)
+                setUserName(event.target.value)
             }} />
         </div>
     )
