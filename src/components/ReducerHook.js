@@ -4,7 +4,7 @@ export default function ReducerHook() {
 
     const redcucer = (state, action) => {
         switch (action.type) {
-            case "INCREMENT":
+            case "increment":
                 return { count: state.count + 1, showText: state.showText }
             case "toggleShowText":
                 return { count: state.count, showText: !state.showText }
@@ -22,7 +22,7 @@ export default function ReducerHook() {
                 {state.count}
             </h1>
             <button onClick={() => {
-                dispatch({ type: "INCREMENT" });
+                dispatch({ type: "increment" });
                 dispatch({ type: "toggleShowText" });
             }}>Increment Number</button>
             <h2>

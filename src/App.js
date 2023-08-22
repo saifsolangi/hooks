@@ -1,25 +1,14 @@
-import './App.css';
-import ContextHook from './components/ContextHook';
-import MemoHook from './components/MemoHook';
-// import LayoutEffectHook from './components/LayoutEffectHook';
-// import EffectHook from './components/EffectHook';
-// import RefHook from './components/RefHook';
-// import ReducerHook from './components/ReducerHook';
-// import StateHook from './components/StateHook';
+import React from 'react';
+import ConditionalRendering from './ConditionalRenderring';
 
-function App() {
+const App = () => {
+  const num = 25; // Replace this with your actual value
   return (
-    <div className="App">
-      {/* <StateHook /> */}
-      {/* <ReducerHook /> */}
-      {/* <EffectHook></EffectHook> */}
-      {/* <RefHook /> */}
-      {/* <LayoutEffectHook /> */}
-      {/* <ContextHook /> */}
-      <MemoHook />
+    <div>
+      <ConditionalRendering num={num} />
 
     </div>
   );
-}
+};
 
 export default App;
